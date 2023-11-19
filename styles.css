@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3.4rem 0;
+    position: relative;
 }
 
 .contenedor{
@@ -30,6 +31,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 h1{
@@ -48,8 +50,8 @@ input{
 }
 
 button{
-    width: 13rem;
-    padding: .7rem;
+    max-width: 13rem;
+    padding: 1rem;
     color: white;
     background-color: rgb(26, 26, 221);
     border-radius: 2rem;
@@ -107,6 +109,18 @@ i {
 .icono_eliminar:hover {
     background-color: rgba(167, 165, 165, 0.712);
 }
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    padding: 1rem 0;
+}
+#end{
+    color: white;
+}
+
 
 @media(max-width: 768px) {
     .contenedor {
@@ -124,6 +138,11 @@ i {
 
     input {
         width: 95%;
+    }
+}
+@media(max-width: 300px) {
+    *{
+        font-size: 10px;
     }
 }
 
