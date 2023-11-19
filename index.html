@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href= "./styles.css">
+    <link rel="shortcut icon" href="./images/check-mark.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">+
+    <meta property="og:image" content="./images/open-graph.png">
+    <meta property="og:title" content="Listado de tareas">
+    <meta property="og:description" content="App web para crear una lista de tareas, con función de eliminar y marcar como completada. Esta app no soporta persistencia de la información ni siquiera en el localstorage.">
+    <title>Lista tareas | Inicio</title>
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Mis tareas</h1>
+        <input type="text" id="nueva-tarea" placeholder="Agrega una nueva tarea">
+        <button type="submit">Crear tarea</button>
+
+        <div class="lista_tareas">
+            <!-- tareas -->
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
